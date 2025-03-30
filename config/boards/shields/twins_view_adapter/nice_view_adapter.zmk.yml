@@ -1,0 +1,6 @@
+file_format: "1"
+id: twins_view_adapter
+name: nice!view adapter for the Twins keyboard
+type: shield
+requires: [i2c_oled]
+exposes: [nice_view_header]

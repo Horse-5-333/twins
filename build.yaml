@@ -20,8 +20,8 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: twins_left
+    shield: twins_left nice_view_elemental twins_view_adapter
   - board: nice_nano_v2
-    shield: twins_right
+    shield: twins_rightv nice_view_elemental twins_view_adapter
   - board: nice_nano_v2
     shield: settings_reset
