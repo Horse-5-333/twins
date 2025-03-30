@@ -86,7 +86,7 @@
                       bindings = <
    &kp TAB    &kp Q  &kp W  &kp E      &kp R            &kp F9  &kp F10  &kp F11  &kp F12  &kp C_PREV
    &kp LSHFT  &kp A  &kp S  &kp D      &kp F            &kp F5  &kp F6   &kp F7   &kp F8   &kp C_PP
-   &kp LCTRL  &kp Z  &kp X  &KP C      &kp V            &kp F1  &kp F2   &kp F3   &kp F4   &kp C_NEXCT
+   &kp LCTRL  &kp Z  &kp X  &KP C      &kp V            &kp F1  &kp F2   &kp F3   &kp F4   &kp C_NEXT
                      &kp T  &kp LGUI                            &trans   &trans
                      &KP N  &kp SPACE  &kp LALT         &tog 3  &trans   &trans
                       >;
