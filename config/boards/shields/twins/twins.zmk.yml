@@ -1,6 +1,6 @@
 file_format: "1"
 id: twins
-name: Corne
+name: Twins
 type: shield
 url: https://github.com/foostan/crkbd/
 requires: [pro_micro]
