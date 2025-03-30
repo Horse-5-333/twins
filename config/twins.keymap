@@ -88,7 +88,7 @@
    &kp LSHFT  &kp A  &kp S  &kp D      &kp F            &kp F5  &kp F6   &kp F7   &kp F8   &kp C_PP
    &kp LCTRL  &kp Z  &kp X  &kp C      &kp V            &kp F1  &kp F2   &kp F3   &kp F4   &kp C_NEXT
                      &kp T  &kp LGUI                            &trans   &trans
-                     &KP N  &kp SPACE  &kp LALT         &tog 3  &trans   &trans
+                     &kp N  &kp SPACE  &kp LALT         &tog 3  &trans   &trans
                       >;
              };
 
