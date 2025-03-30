@@ -1,0 +1,16 @@
+if SHIELD_TWINS_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Twins"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_TWINS_LEFT || SHIELD_TWINS_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
