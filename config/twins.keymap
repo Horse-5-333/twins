@@ -24,10 +24,10 @@
 
 
                         bindings = <
-   &kp B  &kp W  &kp D      &kp L      &kp TAB          &kp SEMI  &kp F      &kp O     &kp U      &kp J
-   &kp C  &kp S  &kp T      &kp R      &kp X            &kp Q     &kp N      &kp A     &kp I      &kp H
-   &kp V  &kp Y  &kp G      &kp M      &kp Z            &kp APOS  &kp P      &kp DOT   &kp COMMA  &kp K
-                 &kp LGUI   &kp LSHFT  &kp E  &mo 1 &mo 2  &kp SPACE  &kp BSPC   &kp ENTER
+   &kp B  &kp W   &kp D       &kp L      &kp TAB          &kp SEMI  &kp F      &kp O     &kp U      &kp J
+   &kp C  &kp S   &kp T       &kp R      &kp X            &kp Q     &kp N      &kp A     &kp I      &kp H
+   &kp V  &kp Y   &kp G       &kp M      &kp Z            &kp APOS  &kp P      &kp DOT   &kp COMMA  &kp K
+          &kp LGUI &kp LSHFT &kp E     &mo 1            &mo 2     &kp SPACE  &kp BSPC  &kp ENTER
          
                         >;
                 };
@@ -47,8 +47,7 @@
    &trans     &trans    &kp UP    &trans     &trans         &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp FSLH      &kp ASTERISK
    &kp LCTRL  &kp LEFT  &kp DOWN  &kp RIGHT  &trans         &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_MINUS  &kp KP_PLUS
    &trans     &kp LGUI  &trans    &trans     &trans         &kp KP_N1  &kp KP_N2  &kp KP_N3  &trans        &trans
-                        &trans    &trans                               &kp KP_N0  &kp EQUAL
-                        &trans    &trans     &trans         &tog 3     &trans     &trans
+          &kp LGUI &kp LSHFT &kp E     &mo 1            &mo 2     &kp SPACE  &kp BSPC  &kp ENTER
                         >;
                 };
 //
@@ -67,8 +66,7 @@
    &kp GRAVE  &kp LT     &kp GT        &kp DQT    &kp UNDER            &kp AMPS  &kp SEMI   &kp LBKT  &kp RBKT  &kp PRCNT
    &kp EXCL   &kp MINUS  &kp PLUS      &kp EQUAL  &kp HASH             &kp PIPE  &kp COLON  &kp LPAR  &kp RPAR  &kp QMARK
    &kp CARET  &kp FSLH   &kp ASTERISK  &kp BSLH   &kp TILDE            &kp MINUS &kp DLLR   &kp LBRC  &kp RBRC  &kp AT
-                         &trans        &trans                                    &trans     &trans
-                         &trans        &trans     &tog 3               &trans    &trans     &trans
+          &kp LGUI &kp LSHFT &kp E     &mo 1            &mo 2     &kp SPACE  &kp BSPC  &kp ENTER
                         >;
 
                 };
@@ -88,8 +86,7 @@
    &kp TAB    &kp Q  &kp W  &kp E      &kp R            &kp F9  &kp F10  &kp F11  &kp F12  &kp C_PREV
    &kp LSHFT  &kp A  &kp S  &kp D      &kp F            &kp F5  &kp F6   &kp F7   &kp F8   &kp C_PP
    &kp LCTRL  &kp Z  &kp X  &kp C      &kp V            &kp F1  &kp F2   &kp F3   &kp F4   &kp C_NEXT
-                     &kp T  &kp LGUI                            &trans   &trans
-                     &kp N  &kp SPACE  &kp LALT         &tog 3  &trans   &trans
+          &kp LGUI &kp LSHFT &kp E     &mo 1            &mo 2     &kp SPACE  &kp BSPC  &kp ENTER
                       >;
              };
 
