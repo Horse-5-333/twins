@@ -16,15 +16,15 @@
                         display-name = "CASTER";
 //
 // ┌─────┬─────┬─────┬─────┬─────┐          ┌─────┬─────┬─────┬─────┬─────┐   
-// │  b  │  w  │  d  │  l  │ TAB │          │  ;  │  f  │  o  │  u  │  j  │    
+// │  b  │  w  │  d  │  l  │ TAB │          │ WIN │  f  │  o  │  u  │  j  │    
 // │  c  │  s  │  t  │  r  │  x  │          │  q  │  n  │  a  │  i  │  h  │
-// │  v  │  y  │  g  │  m  |  z  │          │ '   │  p  │  .  │  ,  │  k  │    
+// │  v  │  y  │  g  │  m  |  z  │          │  '  │  p  │  .  │  ,  │  k  │    
 // └─────│ CTL │BKSPC│  e  | NUM │          │ SYM │ SPC | SFT |ENTER│─────┘    
 //       └─────┴─────┴─────┴─────┘          └─────┴─────┴─────┴─────┘  
 
 
                         bindings = <
-   &kp B  &kp W     &kp D     &kp L &kp TAB          &kp SEMI  &kp F      &kp O      &kp U      &kp J
+   &kp B  &kp W     &kp D     &kp L &kp TAB          &kp LGUI  &kp F      &kp O      &kp U      &kp J
    &kp C  &kp S     &kp T     &kp R &kp X            &kp Q     &kp N      &kp A      &kp I      &kp H
    &kp V  &kp Y     &kp G     &kp M &kp Z            &kp APOS  &kp P      &kp DOT    &kp COMMA  &kp K
           &kp LCTRL &kp BSPC  &kp E &mo 1           &mo 2     &kp SPACE   &kp LSHFT  &kp ENTER
