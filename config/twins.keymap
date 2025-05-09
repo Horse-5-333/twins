@@ -13,7 +13,7 @@
            compatible = "zmk,keymap";
 
                 default_layer { 
-                        display-name = "CASTER";
+                display-name = "ALPHA";
 //
 // ┌─────┬─────┬─────┬─────┬─────┐          ┌─────┬─────┬─────┬─────┬─────┐   
 // │  b  │  w  │  d  │  l  │ TAB │          │ WIN │  f  │  o  │  u  │  j  │    
