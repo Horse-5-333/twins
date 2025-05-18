@@ -43,9 +43,9 @@
 //       └─────┴─────┴─────┴─────┘          └─────┴─────┴─────┴─────┘  
 //
                         bindings = <
-   &trans     &trans    &kp UP    &trans     &trans         &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp FSLH      &kp ASTERISK
-   &kp LCTRL  &kp LEFT  &kp DOWN  &kp RIGHT  &trans         &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_MINUS  &kp KP_PLUS
-   &trans     &kp LGUI  &trans    &trans     &trans         &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_N0     &kp EQUAL
+   &trans     &trans    &kp UP    &trans     &trans         &kp N7  &kp N8  &kp N9  &kp FSLH      &kp ASTERISK
+   &kp LCTRL  &kp LEFT  &kp DOWN  &kp RIGHT  &trans         &kp N4  &kp N5  &kp N6  &kp KP_MINUS  &kp KP_PLUS
+   &trans     &kp LGUI  &trans    &trans     &trans         &kp N1  &kp N2  &kp N3  &kp N0     &kp EQUAL
               &trans    &trans    &trans      &mo 1         &tog 3      &trans     &trans     &trans
                        >;
                 };
@@ -55,16 +55,16 @@
                         display-name = "SYMBOL";
 //
 // ┌─────┬─────┬─────┬─────┬─────┐          ┌─────┬─────┬─────┬─────┬─────┐   
-// │  `  │  <  │  >  │  "  │  _  │          │  &  │  ;  │  [  │  ]  │  %  │    
-// │  !  │  -  │  +  │  =  │  #  │          │ "|" │  :  │  (  │  )  │  ?  │    
+// │  `  │  <  │  >  │  "  │  _  │          │  &  │  :  │  [  │  ]  │  %  │    
+// │  !  │  -  │  +  │  =  │  #  │          │ "|" │  ;  │  (  │  )  │  ?  │    
 // │  ^  │  /  │  *  │  \  │  ~  │          │  -  │  $  │  {  │  }  │  @  │    
 // └─────│     │     │     │ TOG │          │     │     │     │     │─────┘    
 //       └─────┴─────┴─────┴─────┘          └─────┴─────┴─────┴─────┘
 
 //
                         bindings = <
-   &kp GRAVE  &kp LT     &kp GT        &kp DQT    &kp UNDER            &kp AMPS  &kp SEMI   &kp LBKT  &kp RBKT  &kp PRCNT
-   &kp EXCL   &kp MINUS  &kp PLUS      &kp EQUAL  &kp HASH             &kp PIPE  &kp COLON  &kp LPAR  &kp RPAR  &kp QMARK
+   &kp GRAVE  &kp LT     &kp GT        &kp DQT    &kp UNDER            &kp AMPS  &kp COLON   &kp LBKT  &kp RBKT  &kp PRCNT
+   &kp EXCL   &kp MINUS  &kp PLUS      &kp EQUAL  &kp HASH             &kp PIPE  &kp SEMI  &kp LPAR  &kp RPAR  &kp QMARK
    &kp CARET  &kp FSLH   &kp ASTERISK  &kp BSLH   &kp TILDE            &kp MINUS &kp DLLR   &kp LBRC  &kp RBRC  &kp AT
               &trans     &trans        &trans     &tog 3               &mo 2     &trans     &trans    &trans
                         >;
