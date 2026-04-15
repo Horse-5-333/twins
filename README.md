@@ -1,7 +1,8 @@
 # Hourglass Twins Keyboard
 ### in 2021, [9% of Americans](https://doi.org/10.15620/cdc:129848) (~30 million people) experienced a repetitive strain injury
 Constant typing in an office setting was found to be a significant risk factor. A key reason why is the keyboards many officeworkers use - the standard 104 key ANSI layout was not designed with people in mind. This project aims to implement strategic, ergonomic design choices that improve comfort during typing and decrease the risk of repetitive strain injury.
-
+![image](IMG_1062.jpeg)
+![image](IMG_1063.jpeg)
 ## Ergonomics
 The Hourglass Twins Keyboard implments, among others, 3 key design choices - a column (rather than the standard row) stagger, a thumb cluster, and angled offsets measured specifically to the average male hand size. However, this design is not without compromise; the slim layout would be a dealbreaker for many, as this keyboard only has 38 keys (though through the use of layers, there are actually 38x3=114 effective keys). The main goal of the keyboard is to unite the design and layout of the keys to the physical shape of the human hand, in positions that are comfortable to hold.
 
