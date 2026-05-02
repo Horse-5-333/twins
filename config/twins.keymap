@@ -36,15 +36,15 @@
 //
 //
 // ┌─────┬─────┬─────┬─────┬─────┐          ┌─────┬─────┬─────┬─────┬─────┐   
-// │     │     │  🡅  │     │     │          │  7  │  8  │  9  │  /  │  *  │    
-// │ CTL │  🡄  │  🡇  │  🡆  │     │          │  4  │  5  │  6  │  -  │  +  │
+// │     │     │  🡅  │     │  9  │          │  7  │  8  │  9  │  /  │  *  │    
+// │ CTL │  🡄  │  🡇  │  🡆  │  o  │          │  4  │  5  │  6  │  -  │  +  │
 // │     │ WIN │     │     │     │          │  1  │  2  │  3  │  0  │  =  │    
 // └─────│     │     │     │     │          │ TOG │     │     │     │─────┘    
 //       └─────┴─────┴─────┴─────┘          └─────┴─────┴─────┴─────┘  
 //
                         bindings = <
-   &trans     &trans    &kp UP    &trans     &trans         &kp N7  &kp N8  &kp N9  &kp FSLH      &kp ASTERISK
-   &kp LCTRL  &kp LEFT  &kp DOWN  &kp RIGHT  &trans         &kp N4  &kp N5  &kp N6  &kp KP_MINUS  &kp KP_PLUS
+   &trans     &trans    &kp UP    &trans     &kp N9         &kp N7  &kp N8  &kp N9  &kp FSLH      &kp ASTERISK
+   &kp LCTRL  &kp LEFT  &kp DOWN  &kp RIGHT  &kp O          &kp N4  &kp N5  &kp N6  &kp KP_MINUS  &kp KP_PLUS
    &trans     &kp LGUI  &trans    &trans     &trans         &kp N1  &kp N2  &kp N3  &kp N0     &kp EQUAL
               &trans    &trans    &trans      &mo 1         &tog 3      &trans     &trans     &trans
                        >;
