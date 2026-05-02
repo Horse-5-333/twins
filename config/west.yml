@@ -11,6 +11,7 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+      revision: v0.2
     - name: nice-view-elemental
       remote: kevinpastor
       revision: main
